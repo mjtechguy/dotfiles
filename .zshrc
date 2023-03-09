@@ -12,6 +12,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff8700"
 ## Set source files. This needs to be left exactly where it is.
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
+source $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ## Enable plugins.
 plugins=(git kubectl docker zsh-autosuggestions)
